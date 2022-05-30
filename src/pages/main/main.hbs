@@ -1,11 +1,11 @@
 ---
 css:
 - /src/pages/main/main.css
-- /src/styles/avatar.css
-- /src/styles/chat_element.css
-- /src/styles/chat_header.css
-- /src/styles/chat_message.css
-- /src/styles/chat_body.css
+- /src/partials/avatar/avatar.css
+- /src/partials/chat_element/chat_element.css
+- /src/partials/chat_header/chat_header.css
+- /src/partials/chat_message/chat_message.css
+- /src/partials/chat_body/chat_body.css
 
 ---
 
@@ -13,19 +13,19 @@ css:
 
   <nav class="chat-list">
     <div class="chat-list__header">
-      {{>button class="chat-list__profile" textBtn="Профиль >"}}
-      {{>input class="chat-list__find" name="find" placeholder="Поиск" }}
+      {{>button/button class="chat-list__profile" textBtn="Профиль >"}}
+      {{>input/input class="chat-list__find" name="find" placeholder="Поиск" }}
     </div>
     <ul class="chat-list__body">
       {{#each chat_list.chatList}}
-      {{>chatElement}}
+      {{>chat_element/chat_element}}
       {{/each}}
     </ul>
   </nav>
   <div class="chat">
-    {{>chat_header}}
-    {{>chat_body}}
-    {{>chat_message}}
+    {{>chat_header/chat_header}}
+    {{>chat_body/chat_body}}
+    {{>chat_message/chat_message}}
   </div>
 
   </main>
