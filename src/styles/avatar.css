@@ -1,0 +1,16 @@
+.avatar {
+    
+    margin: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #EFEFEF;
+
+
+    &__photo {
+        width: auto;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+}

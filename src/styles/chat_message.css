@@ -1,0 +1,80 @@
+.chat-message {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #EFEFEF;
+
+    &__clip {
+        margin-top: 12.5px;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__message {
+        margin-top: 11px;
+        border-radius: 30px;
+        border: 0;
+        background-color: #EFEFEF;
+        width: 842px;
+        height: 32px;
+        margin: 11px;
+    }
+
+
+    &__sendButton {
+        margin-top: 13px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #3369F3;
+        border: 0px;
+
+    }
+
+}
+
+.right-arrow {
+    display: inline-flex;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.right-arrow::before {
+    display: inline-flex;
+    position: absolute;
+    content: '';
+}
+
+.right-arrow::after {
+    display: inline-flex;
+    position: absolute;
+    content: '';
+}
+
+.right-arrow::before {
+    top: 5px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    background-color: white;
+}
+
+.right-arrow::after {
+    width: 5px;
+    height: 5px;
+    top: 2.5px;
+}
+
+.right-arrow::after {
+    right: 0;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+}

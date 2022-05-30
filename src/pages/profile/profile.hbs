@@ -1,0 +1,52 @@
+---
+profileData: 
+  name: Максим
+  inputs: 
+    - class: edit-input__input
+      name: email
+      title: Почта
+      type: text
+      value: a@b.com
+    - class: edit-input__input
+      name: login
+      title: Логин
+      type: text
+      value: max.tuptin
+    - class: edit-input__input
+      name: name
+      title: Имя
+      type: text
+      value: Максим
+    - class: edit-input__input
+      name: secondName
+      title: Фамилия
+      type: text
+      value: Туптин
+    - class: edit-input__input
+      name: name_in_chat
+      title: Имя в чате
+      type: text
+      value: Максим
+    - class: edit-input__input
+      name: phone
+      title: Номер телефона
+      type: tel
+      value: 01
+  buttons:
+    - class: profile__change-button
+      textBtn: Изменить данные
+    - class: profile__change-button
+      textBtn: Изменить пароль
+    - class: profile__exit-button
+      textBtn: Выйти  
+css:
+- /src/styles/profile.css
+- /src/styles/avatar.css
+- /src/styles/edit_input.css
+
+---
+
+{{!< base}} 
+<main>
+  {{>profile}}
+</main>
