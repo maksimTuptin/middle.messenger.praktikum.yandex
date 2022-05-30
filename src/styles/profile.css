@@ -1,0 +1,161 @@
+.profile {
+    font-family: 'Roboto', sans-serif;
+
+    &_buttons {}
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 220px;
+        width: 1215px;
+
+    }
+
+    &__header-avatar {
+        margin: auto;
+    }
+
+    &__body {
+        display: flex;
+
+    }
+
+    &__avatar {
+        width: 130px;
+        height: 130px;
+        margin: auto;
+    }
+
+    &__side-bar {
+        background-color: #FBFBFB;
+        border-right: 1px solid #EAEAEA;
+        margin: 0;
+        padding: 0;
+        width: 64px;
+        height: 720px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__back-button {
+        margin-top: 13px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #3369F3;
+        border: 0px;
+    }
+
+    &__back-button-header {
+        margin: auto;
+    }
+
+    &__change-button {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: #3369F3;
+        border: 0;
+    }
+
+    &__exit-button {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: #FF0000;
+        border: 0;
+    }
+
+    &__save-button {
+        min-width: 280px;
+        height: 37px;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.78px;
+        color: #FFFFFF;
+        border-radius: 2px;
+        padding: 0;
+        cursor: pointer;
+        border: none;
+        opacity: 1;
+        background: #3369F3;
+        border-radius: 8px;
+        
+    }
+
+    &__inputs {
+        margin-top: 20p;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    &__buttons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+    &__name {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        width: 510px;
+        border-bottom: 1px solid #EAEAEA;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+
+}
+
+.left-arrow {
+    display: inline-flex;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.left-arrow::before {
+    display: inline-flex;
+    position: absolute;
+    content: '';
+}
+
+.left-arrow::after {
+    display: inline-flex;
+    position: absolute;
+    content: '';
+}
+
+.left-arrow::before {
+    top: 5px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    background-color: white;
+}
+
+.left-arrow::after {
+    width: 5px;
+    height: 5px;
+    top: 2.5px;
+}
+
+.left-arrow::after {
+    left: 0;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(225deg);
+}

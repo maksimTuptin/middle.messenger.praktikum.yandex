@@ -1,0 +1,37 @@
+---
+popupData: 
+  title: Вход
+  inputs: 
+    - class: popup__input
+      name: email
+      placeholder: Почта
+    - class: popup__input
+      name: login
+      placeholder: Логин
+    - class: popup__input
+      name: name
+      placeholder: Имя
+    - class: popup__input
+      name: secondName
+      placeholder: Фамилия
+    - class: popup__input
+      name: phone
+      placeholder: Номер телефона
+    - class: popup__input
+      name: password
+      placeholder: Пароль
+    - class: popup__input
+      name: passwordSecond
+      placeholder: Пароль (еще раз)
+  buttons:
+    - class: popup__save
+      textBtn: Зарегистрироваться
+css:
+- /src/styles/registration.css
+- /src/styles/popup.css
+---
+
+{{!< base}} 
+<main>
+  {{>popup}}
+</main>

@@ -1,0 +1,81 @@
+{
+    "chatList": [
+        {
+            "id": 1,
+            "avatarLink": "/src/static/img/avatars/1.jpg",
+            "time": "12:12",
+            "name": "Иван Иванов",
+            "lastmessage": {
+                "myMessage": true,
+                "textMessage": "Зима близко"
+            },
+            "count": 5
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        },
+        {
+            "id": 2,
+            "avatarLink": "/src/static/img/avatar/2.jpg",
+            "time": "06:00",
+            "name": "Джон Коннор",
+            "lastmessage": {
+                "myMessage": false,
+                "textMessage": "Asta la vista"
+            },
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+---
+popupData: 
+  title: Вход
+  inputs: 
+    - class: popup__input
+      name: login
+      placeholder: Логин
+    - class: popup__input
+      name: password
+      placeholder: Пароль
+  buttons:
+    - class: popup__save
+      textBtn: Авторизоваться
+    - class: popup__no-account
+      textBtn: Нет аккаунта?
+css:
+- /src/styles/autorization.css
+- /src/styles/popup.css
+---
+
+{{!< base}} 
+<main>
+  {{>popup}}
+</main>
