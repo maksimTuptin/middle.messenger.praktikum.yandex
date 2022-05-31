@@ -1,14 +1,20 @@
 .error {
     display: flex;
-    
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+
     &__content {
+        text-align: center;
         margin: auto;
+        
     }
     &__back-link {
         font-size: 11px;
+        text-decoration: none;
     }
   
     &__code {
-        margin-bottom: 20px;
+        margin-bottom: 69px;
     }
 }
