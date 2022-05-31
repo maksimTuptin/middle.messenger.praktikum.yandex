@@ -1,0 +1,14 @@
+.error {
+    display: flex;
+    
+    &__content {
+        margin: auto;
+    }
+    &__back-link {
+        font-size: 11px;
+    }
+  
+    &__code {
+        margin-bottom: 20px;
+    }
+}
