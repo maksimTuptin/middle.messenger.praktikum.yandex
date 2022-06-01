@@ -1,24 +1,33 @@
 ---
 css:
-- /src/pages/main/main.css
-- /src/partials/avatar/avatar.css
-- /src/partials/chat_element/chat_element.css
-- /src/partials/chat_header/chat_header.css
-- /src/partials/chat_message/chat_message.css
-- /src/partials/chat_body/chat_body.css
+  - /src/pages/main/main.css
+  - /src/partials/button/button.css
+  - /src/partials/avatar/avatar.css
+  - /src/partials/chat_element/chat_element.css
+  - /src/partials/chat_header/chat_header.css
+  - /src/partials/chat_message/chat_message.css
+  - /src/partials/chat_body/chat_body.css
 
 ---
 
 {{!< base}} <main class="main">
 
   <nav class="chat-list">
-    <div class="chat-list__header">
-      {{>button/button class="chat-list__profile" textBtn="Профиль >"}}
-      {{>input/input class="chat-list__find" name="find" placeholder="Поиск" }}
-    </div>
+    <ul class="chat-list__header" type="none">
+      <li>
+        {{>button/button class="button__profile" classForm="button__form-profile" textBtn="Профиль >"
+        link="/profile/profile.html"}}
+      </li>
+      <li>
+        {{>input/input class="chat-list__find" name="find" placeholder="Поиск" }}
+      </li>
+    </ul>
     <ul class="chat-list__body">
+
       {{#each chat_list.chatList}}
-      {{>chat_element/chat_element}}
+      
+        {{>chat_element/chat_element}}
+      
       {{/each}}
     </ul>
   </nav>

@@ -1,6 +1,7 @@
 ---
 popupData: 
-  title: Вход
+  title: Зарегистрироваться
+  classForm: popup__registration-form
   inputs: 
     - class: popup__input
       name: email
@@ -24,11 +25,13 @@ popupData:
       name: password_second
       placeholder: Пароль (еще раз)
   buttons:
-    - class: popup__save
+    - class: button__save
       textBtn: Зарегистрироваться
+      classForm: button__form
+      link: /main/main.html
 css:
-- /src/pages/registration/registration.css
 - /src/partials/popup/popup.css
+- /src/partials/button/button.css
 ---
 
 {{!< base}} 

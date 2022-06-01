@@ -1,6 +1,7 @@
 ---
 popupData: 
   title: Вход
+  formClass: popup__registration-form
   inputs: 
     - class: popup__input
       name: login
@@ -9,13 +10,13 @@ popupData:
       name: password
       placeholder: Пароль
   buttons:
-    - class: popup__save
+    - class: button__save
       textBtn: Авторизоваться
     - class: popup__no-account
       textBtn: Нет аккаунта?
 css:
-- /src/pages/autorization/autorization.css
 - /src/partials/popup/popup.css
+- /src/partials/button/button.css
 ---
 
 {{!< base}} 

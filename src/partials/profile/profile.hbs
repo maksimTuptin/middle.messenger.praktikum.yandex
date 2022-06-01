@@ -20,8 +20,8 @@
       </div>
       <div class="profile__buttons">
         {{#each profileData.buttons}}
-        <div class="profile__button">
-          {{>button/button class=this.class textBtn=this.textBtn}}
+        <div class="profile__button {{this.buttonMode}}">
+          {{>button/button class=this.class textBtn=this.textBtn link=this.link classForm=this.classForm}}
         </div>
         {{/each}}
       </div>
