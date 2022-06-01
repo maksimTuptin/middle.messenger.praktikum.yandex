@@ -7,19 +7,19 @@
 * HTML
 * CSS
 
-# Сборщик
+## Сборщик
 * parcel
 
-# Шаблонизатор 
+## Шаблонизатор 
 * handelbars
 
-# Команды
+##Команды
 
 - `npm start` — запуск версии для разработчика,
 - `npm run build` — сборка стабильной версии.
 
-# URL проекта netlify
+## URL проекта netlify
 * https://cosmic-mermaid-d14c96.netlify.app/
 
-# Дизайн
+## Дизайн
 * https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3A1

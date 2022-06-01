@@ -1,6 +1,7 @@
 ---
 css:
 - /src/pages/main/main.css
+- /src/partials/button/button.css
 - /src/partials/avatar/avatar.css
 - /src/partials/chat_element/chat_element.css
 - /src/partials/chat_header/chat_header.css
@@ -13,7 +14,7 @@ css:
 
   <nav class="chat-list">
     <div class="chat-list__header">
-      {{>button/button class="chat-list__profile" textBtn="Профиль >" link="/profile/profile.html"}}
+      {{>button/button class="button__profile" classForm="button__form-profile" textBtn="Профиль >" link="/profile/profile.html"}}
       {{>input/input class="chat-list__find" name="find" placeholder="Поиск" }}
     </div>
     <ul class="chat-list__body">
