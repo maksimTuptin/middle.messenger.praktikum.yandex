@@ -1,4 +1,4 @@
-<form class="popup popup_opened">
+<div class="popup {{popupData.classForm}} popup_opened">
   <div class="popup__body">
     <div class="popup__content">
       <h3 class="popup__title">{{popupData.title}}</h3>
@@ -9,9 +9,9 @@
       </div>
       <div class="popup__buttons">
         {{#each popupData.buttons}}
-        {{>button/button class=this.class textBtn=this.textBtn}}
+        {{>button/button class=this.class textBtn=this.textBtn link=this.link}}
         {{/each}}
       </div>
     </div>
   </div>
-</form>
+</div>

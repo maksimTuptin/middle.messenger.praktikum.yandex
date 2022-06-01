@@ -45,6 +45,7 @@
         border-radius: 50%;
         background-color: #3369F3;
         border: 0px;
+        cursor: pointer;
     }
 
     &__back-button-header {
@@ -57,6 +58,7 @@
         background-color: white;
         color: #3369F3;
         border: 0;
+        cursor: pointer;
     }
 
     &__exit-button {
@@ -65,6 +67,7 @@
         background-color: white;
         color: #FF0000;
         border: 0;
+        cursor: pointer;
     }
 
     &__save-button {
@@ -82,7 +85,11 @@
         opacity: 1;
         background: #3369F3;
         border-radius: 8px;
-        
+        justify-content: center;
+    }
+
+    &__form {
+        justify-content: center;
     }
 
     &__inputs {
@@ -100,7 +107,7 @@
         justify-content: center;
 
     }
-    
+
     &__name {
         display: flex;
         justify-content: center;
@@ -108,12 +115,15 @@
 
     &__button {
         width: 510px;
-        border-bottom: 1px solid #EAEAEA;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: auto;
         padding-top: 10px;
+    }
+
+    &__button_center{
+        justify-content: center; 
     }
 
 
@@ -125,37 +135,29 @@
     width: 10px;
     height: 10px;
     cursor: pointer;
+
+    &::after {
+        width: 5px;
+        height: 5px;
+        top: 2.5px;
+        display: inline-flex;
+        position: absolute;
+        content: '';
+        left: 0;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+        transform: rotate(225deg);
+    }
+
+    &::before {
+        display: inline-flex;
+        position: absolute;
+        content: '';
+        top: 5px;
+        left: 0;
+        width: 9px;
+        height: 2px;
+        background-color: white;
+    }
 }
 
-.left-arrow::before {
-    display: inline-flex;
-    position: absolute;
-    content: '';
-}
-
-.left-arrow::after {
-    display: inline-flex;
-    position: absolute;
-    content: '';
-}
-
-.left-arrow::before {
-    top: 5px;
-    left: 0;
-    width: 9px;
-    height: 2px;
-    background-color: white;
-}
-
-.left-arrow::after {
-    width: 5px;
-    height: 5px;
-    top: 2.5px;
-}
-
-.left-arrow::after {
-    left: 0;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-    transform: rotate(225deg);
-}

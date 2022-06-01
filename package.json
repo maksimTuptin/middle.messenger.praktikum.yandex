@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "parcel build src/pages/*.hbs",
-    "start": "parcel src/pages/index.hbs --port 3000 --no-cache && parcel watch ./*"
+    "start": "parcel src/pages/*.hbs --port 3000 --no-cache && parcel watch ./*"
   },
   "keywords": [],
   "author": "",
