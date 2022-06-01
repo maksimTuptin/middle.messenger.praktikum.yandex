@@ -14,7 +14,9 @@
     border: 1px solid #EAEAEA;
 
     &__header {
+        padding: 0;
         height: 103px;
+        
     }
 
     &__find {

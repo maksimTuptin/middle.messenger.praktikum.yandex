@@ -2,16 +2,20 @@
   <div class="popup__body">
     <div class="popup__content">
       <h3 class="popup__title">{{popupData.title}}</h3>
-      <div class="popup__inputs">
+      <ul class="popup__inputs" type="none">
         {{#each popupData.inputs}}
-        {{>input/input}}
+        <li>
+          {{>input/input}}
+        </li>
         {{/each}}
-      </div>
-      <div class="popup__buttons">
+      </ul>
+      <ul class="popup__buttons" type="none">
         {{#each popupData.buttons}}
-        {{>button/button class=this.class textBtn=this.textBtn link=this.link}}
+        <li>
+          {{>button/button class=this.class textBtn=this.textBtn link=this.link}}
         {{/each}}
-      </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
