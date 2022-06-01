@@ -13,17 +13,17 @@ profileData:
       type: text
       value: max.tuptin
     - class: edit-input__input
-      name: name
+      name: first_name
       title: Имя
       type: text
       value: Максим
     - class: edit-input__input
-      name: secondName
+      name: second_name
       title: Фамилия
       type: text
       value: Туптин
     - class: edit-input__input
-      name: name_in_chat
+      name: display_name
       title: Имя в чате
       type: text
       value: Максим
@@ -35,18 +35,21 @@ profileData:
   buttons:
     - class: profile__change-button
       textBtn: Изменить данные
+      link: 
     - class: profile__change-button
       textBtn: Изменить пароль
+      link: /change_password/change_password.html
     - class: profile__exit-button
       textBtn: Выйти  
+      link: /main/main.html
 css:
-- /src/styles/profile.css
-- /src/styles/avatar.css
-- /src/styles/edit_input.css
+- /src/partials/profile/profile.css
+- /src/partials/avatar/avatar.css
+- /src/partials/edit_input/edit_input.css
 
 ---
 
 {{!< base}} 
 <main>
-  {{>profile}}
+  {{>profile/profile}}
 </main>

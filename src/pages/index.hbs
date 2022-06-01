@@ -1,18 +1,37 @@
 ---
-title: Home page
+popupData:
+  title: Вход
+  classForm: popup__autorization-form
+  inputs:
+  - class: popup__input
+    name: login
+    placeholder: Логин
+  - class: popup__input
+    name: password
+    placeholder: Пароль
+  buttons:
+  - class: button__save
+    textBtn: Авторизоваться
+    link: /main/main.html
+  - class: button__no-account
+    textBtn: Нет аккаунта?
+    link: /registration/registration.html
 css:
-  - /src/vendor/normalize.css
-
+- /src/partials/popup/popup.css
+- /src/partials/button/button.css
 ---
 
-{{!< base}}
-
-<main>
-  <a href="./add_user/add_user.hbs">add user</a>
-  <a href="./delete_user/delete_user.hbs">delete user</a>
-  <a href="./profile/profile.hbs">profile</a>
-  <a href="./change_password/change_password.hbs">change_password</a>
-  <a href="./registration/registration.hbs">registration</a>
-  <a href="./autorization/autorization.hbs">autorization</a>
-  <a href="./main/main.hbs">main</a>
-</main>
+{{!< base}} <main>
+  {{>popup/popup}}
+  <div class="popup__href">
+    <a href="./add_user/add_user.hbs">add_user</a>
+    <a href="./delete_user/delete_user.hbs">delete_user</a>
+    <a href="./main/main.hbs">main</a>
+    <a href="./profile/profile.hbs">profile</a>
+    <a href="./change_password/change_password.hbs">change_password</a>
+    <a href="./autorization/autorization.hbs">autorization</a>
+    <a href="./registration/registration.hbs">registration</a>
+    <a href="./error_404/error_404.hbs">error_404</a>
+    <a href="./error_500/error_500.hbs">error_500</a>
+  </div>
+  </main>
