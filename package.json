@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel src/pages/index.hbs --no-cache  --public-url ./ ",
-    "start": "parcel src/pages/autorization/autorization.hbs --port 3000 --no-cache && parcel watch ./*"
+    "build": "parcel build src/pages/*.hbs",
+    "start": "parcel src/pages/index.hbs --port 3000 --no-cache && parcel watch ./*"
   },
   "keywords": [],
   "author": "",
