@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "parcel build src/pages/autorization/autorization.hbs --no-cache  && parcel --public-url ./ | node ./src/server.js",
+    "build": "parcel src/pages/index.hbs --no-cache  --public-url ./ ",
     "start": "parcel src/pages/autorization/autorization.hbs --port 3000 --no-cache && parcel watch ./*"
   },
   "keywords": [],
