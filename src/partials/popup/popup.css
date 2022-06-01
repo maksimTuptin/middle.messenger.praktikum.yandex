@@ -16,13 +16,13 @@
 
     &__autorization-form {
         height: 450px;
-        left: 470px;
+        left: 789px;
         top: 135px;
     }
 
     &__registration-form {
         height: 615px;
-        left: 470px;
+        left: 789px;
         top: 52px;
     }
 
@@ -43,7 +43,13 @@
         justify-content: space-between;
     }
 
- 
+    &__inputs {
+        padding: 0;
+    }
+
+    &__buttons {
+        padding: 0;
+    }
 
     &__input {
         width: 280px;
@@ -62,7 +68,7 @@
         position: relative;
         justify-content: center;
         background-color: #FFFFFF;
-        padding: 34px 26px 37px;
+        padding-left: 26px;
         display: flex;
         flex-direction: column;
     }
