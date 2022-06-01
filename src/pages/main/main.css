@@ -17,18 +17,6 @@
         height: 103px;
     }
 
-    &__profile {
-        margin-top: 10px;
-        font-size: 12px;
-        display: flex;
-        justify-content: right;
-        background: none;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-
-    }
-
     &__find {
         margin: 46px 5px 10px 5px;
         position: inherit;
