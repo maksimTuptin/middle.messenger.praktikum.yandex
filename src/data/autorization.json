@@ -1,0 +1,19 @@
+{
+    "inputs": [
+        {
+            "class": "autorization__input",
+            "name": "login",
+            "placeholder": "Логин"
+        },
+        {
+            "class": "autorization__input",
+            "name": "password",
+            "placeholder": "Пароль"
+        }
+    ],
+    "buttons": {
+        "save": {
+            "class": "autorization__save"
+        }
+    }
+}
