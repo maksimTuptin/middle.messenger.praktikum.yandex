@@ -21,5 +21,7 @@
 ## URL проекта netlify
 * https://cosmic-mermaid-d14c96.netlify.app/
 
+## URL pull request
+
 ## Дизайн
 * https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3A1
