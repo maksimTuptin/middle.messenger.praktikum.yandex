@@ -1,0 +1,21 @@
+<div class="popup {{popupData.classForm}} popup_opened">
+  <div class="popup__body">
+    <div class="popup__content">
+      <h3 class="popup__title">{{popupData.title}}</h3>
+      <ul class="popup__inputs" type="none">
+        {{#each popupData.inputs}}
+        <li>
+          {{>input/input}}
+        </li>
+        {{/each}}
+      </ul>
+      <ul class="popup__buttons" type="none">
+        {{#each popupData.buttons}}
+        <li>
+          {{>button/button class=this.class textBtn=this.textBtn link=this.link}}
+        {{/each}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
